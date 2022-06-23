@@ -1,7 +1,14 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+export default function MyApp({ Component, pageProps }) {
+  // Use the layout defined at the page level, if available
+  const getLayout = Component.getLayout || ((page) => page)
 
-export default MyApp
+  //if layout found
+  if (getLayout) {
+    return getLayout(<Component {...pageProps} />)
+  }
+
+  //if there are not layout found here
+  return (<Component {...pageProps} />)
+}
