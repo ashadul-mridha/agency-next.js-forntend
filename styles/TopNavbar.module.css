@@ -1,0 +1,35 @@
+.topNavBar {
+  padding: 8px 0px;
+  /* background-color: #c1c1c1; */
+}
+.leftContactBar ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+}
+.leftContactBar ul li {
+  margin: 0px 8px;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  /* cursor: pointer; */
+}
+
+.RightContactBar ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+}
+.RightContactBar ul li {
+  margin: 0px 8px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+  .topNavBar {
+    display: none;
+  }
+}
