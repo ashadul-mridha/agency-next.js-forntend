@@ -26,7 +26,7 @@ const FeedBack = () => {
     },
     {
       username: "Asraful",
-      location: "Srilonka",
+      location: "Srilanka",
       img: "user2.avif",
       says: `Been in the group for just over 2 months now, its just constant gains
           lmfao. Love it bro keep going. Thanks a lot for everything youve helped me with so far.`,
