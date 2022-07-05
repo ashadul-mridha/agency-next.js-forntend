@@ -1,0 +1,14 @@
+.aboutusContent h1{
+    font-size: 4rem;
+    max-width: 70%;
+    line-height: 7rem;
+}
+.aboutusContent > p{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+.aboutusList{
+    margin-bottom: 5rem;
+    padding-left: 0px;
+}

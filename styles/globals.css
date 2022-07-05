@@ -31,6 +31,10 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+.img-resp{
+  width: 100%;
+  height: auto;
+}
 
 .btn__primary {
   background: #524fed;

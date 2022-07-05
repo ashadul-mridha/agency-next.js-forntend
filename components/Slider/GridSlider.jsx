@@ -13,7 +13,7 @@ const GridSlider = ({ feedbackList }) => {
     const navigationNextRef = useRef(null);
   return (
     <>
-      <div className="sliderWrapper">
+      <div className="sliderWrapper paddingWrapper">
         <style jsx>{`
           .sliderWrapper {
             position: relative;
