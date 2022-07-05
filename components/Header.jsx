@@ -47,7 +47,7 @@ const Header = () => {
         `}</style>
         <nav className="navbar navbar-expand-lg navbar-light">
           <a className="navbar-logo" href="#">
-            Crypto Gods
+            Developer
           </a>
           <button
             className="navbar-toggler"

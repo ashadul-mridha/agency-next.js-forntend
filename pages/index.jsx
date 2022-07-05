@@ -1,3 +1,5 @@
+import Accordion from '../components/Accordion/Accordion';
+import Footer from '../components/Footer';
 import Header from '../components/Header'
 import Aboutus from '../components/Home/Aboutus';
 import FeedBack from '../components/Home/FeedBack';
@@ -14,6 +16,7 @@ export default function Home() {
       <Aboutus />
       <FeedBack />
       <Service />
+      {/* <Accordion/> */}
     </>
   )
 }
@@ -26,6 +29,7 @@ Home.getLayout = function getLayout(page) {
       <TopNavBar />
       <Header />
       {page}
+      <Footer />
     </>
   );
 }

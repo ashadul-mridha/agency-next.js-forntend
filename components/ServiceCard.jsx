@@ -7,7 +7,7 @@ const ServiceCard = ({ cardData }) => {
       <div className="serviceCardWrapper">
         <style jsx>{`
           .serviceCardWrapper {
-            border-radius: 50px;
+            border-radius: 50px 50px 50px 50px;
             background: #fcfcfc;
             box-shadow: 20px 20px 98px #bdbdbd, -20px -20px 98px #ffffff;
             padding: 40px;
