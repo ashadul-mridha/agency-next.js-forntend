@@ -7,7 +7,7 @@ const Aboutus = () => {
     return (
       <>
         <div className="container paddingWrapper">
-          <div className="row">
+          <div className="row paddingWrapper">
             <div className="col-md-6">
               <div className={styles.aboutusContent}>
                 <h1 className="heading">

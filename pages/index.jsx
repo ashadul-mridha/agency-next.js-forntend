@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Aboutus from '../components/Home/Aboutus';
+import FeedBack from '../components/Home/FeedBack';
 import HeroSection from '../components/Home/HeroSection';
 import Testmonial from '../components/Home/Testmonial';
 import TopNavBar from '../components/TopNavBar'
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <Testmonial />
       <Aboutus />
+      <FeedBack />
     </>
   )
 }

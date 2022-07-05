@@ -65,7 +65,8 @@ const SingleSlider = ({ feedback }) => {
                 <div className="clientSection d-flex justify-content-start">
                   <div className="clientImage">
                     <img
-                      src="/images/testmonialUser.jfif"
+                      // src="/images/testmonialUser.jfif"
+                      src={`/images/${feedback?.img}`}
                       alt="testmonial feedback user of ashadul mridha"
                       className="img-fluid"
                     />
