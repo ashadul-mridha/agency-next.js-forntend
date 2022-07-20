@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // swiper slider 
 import 'swiper/css';
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function MyApp({ Component, pageProps }) {
   // Use the layout defined at the page level, if available
