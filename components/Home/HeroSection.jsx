@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <>
       <div className={`${styles.heroSectionWrapper} paddingWrapper`}>
-        <div className="container-lg">
-          <div className="row align-items-center">
+        <div className="container">
+          <div className="row align-items-center gy-5">
             <div className="col-lg-6">
               <h1 className="heading pb-4">
                 The Ultimate Crypto Community Platform

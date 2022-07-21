@@ -57,9 +57,8 @@ const GridSlider = ({ feedbackList }) => {
         `}</style>
         <img src="/images/slider-bg.png" alt="" className="sliderImage" />
         <Swiper
-          modules={[Autoplay, Navigation]}
-          spaceBetween={20}
-          slidesPerView={4}
+          spaceBetween={10}
+          slidesPerView={1}
           loop={true}
           autoplay={{
             delay: 2000,
@@ -69,29 +68,21 @@ const GridSlider = ({ feedbackList }) => {
             nextEl: `.next`,
             prevEl: `.prev`,
           }}
-          //  onBeforeInit={{
-          //       swiper.params.navigation.prevEl = navigationPrevRef.current;
-          //       swiper.params.navigation.nextEl = navigationNextRef.current;
-          //  }}
-          //   onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
-          //   breakpoints={{
-          //     // when window width is >= 640px
-          //     440: {
-          //       width: 440,
-          //       slidesPerView: 2,
-          //     },
-          //     // when window width is >= 768px
-          //     768: {
-          //       width: 768,
-          //       slidesPerView: 2,
-          //     },
-          //     // when window width is >= 991px
-          //     991: {
-          //       width: 991,
-          //       slidesPerView: 4,
-          //     },
-          //   }}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1360: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
+          modules={[Autoplay, Navigation]}
         >
           {feedbackList.map((feedback, index) => {
             return (

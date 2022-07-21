@@ -87,8 +87,8 @@ const Footer = () => {
             }
           `}</style>
           <div className="container paddingWrapper">
-            <div className="row">
-              <div className="col-lg-6">
+            <div className="row gy-5">
+              <div className="col-lg-6 col-12">
                 <div className="footerLeftSide">
                   <a href="#" className="logo">
                     Ashadul
@@ -115,7 +115,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <div className="quickLink">
                   <h5 className="title p_text">QUICK LINKS</h5>
                   <ul className="quickLinkList">
@@ -131,7 +131,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <div className="ProjectOrder">
                   <h5 className="title">Order</h5>
                   <ul className="ProjectOrderList">

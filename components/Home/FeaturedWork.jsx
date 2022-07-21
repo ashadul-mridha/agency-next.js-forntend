@@ -13,7 +13,7 @@ const FeaturedWork = () => {
          el: ".my-custom-pagination-div",
          clickable: true,
          renderBullet: function (index, className) {
-            return `<div class=${className}> __${index + 1} </div>`;
+            return `<div class=${className}> ${index + 1} </div>`;
          },
        };
 
@@ -84,12 +84,12 @@ const FeaturedWork = () => {
         <div className="container">
           <div className="featuredWorkWrapper">
             <div className="row">
-              <div className="col-lg-1">
+              <div className="col-1">
                 <div className="paginationWrapper">
                   <div className="my-custom-pagination-div"></div>
                 </div>
               </div>
-              <div className="col-lg-11">
+              <div className="col-11">
                 <ProjectSlider
                   peojectSliderData={peojectSliderData}
                   pagination={pagination}

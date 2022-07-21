@@ -18,6 +18,12 @@ const SectionHeader = ({data}) => {
               margin: 30px auto;
               opacity: 0.7;
             }
+
+            @media only screen and (max-width: 992px) {
+              .sectionHeader > h1 {
+                font-size: 3rem;
+              }
+            }
           `}
         </style>
         <div className={`sectionHeader text-center`}>

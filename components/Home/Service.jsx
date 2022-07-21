@@ -58,12 +58,18 @@ const Service = () => {
 
 
     return (
-      <div className="paddingWrapper" id='service'>
+      <div className="paddingWrapper" id="service">
         <style jsx>{`
           .serviceWrapper {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 50px;
+          }
+          @media screen and (max-width: 991px) {
+            .serviceWrapper {
+              grid-template-columns: 1fr;
+              grid-gap: 30px;
+            }
           }
         `}</style>
         <SectionHeader data={data} />

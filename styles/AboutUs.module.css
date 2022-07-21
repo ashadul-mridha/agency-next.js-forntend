@@ -12,3 +12,10 @@
     margin-bottom: 5rem;
     padding-left: 0px;
 }
+
+@media only screen and (max-width: 992px) {
+  .aboutusContent > h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}

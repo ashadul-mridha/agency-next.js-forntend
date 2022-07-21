@@ -8,7 +8,7 @@ const Aboutus = () => {
       <>
         <div className="container paddingWrapper" id='about'>
           <div className="row paddingWrapper">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className={styles.aboutusContent}>
                 <h1 className="heading">
                   Is this group the right fit for you?
@@ -36,7 +36,7 @@ const Aboutus = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="aboutusImage">
                 <img
                   src="/images/about.png"

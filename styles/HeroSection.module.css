@@ -3,7 +3,7 @@
 }
 .heroSectionImg img {
   width: 100%;
-  transform: translateX(-3%)  scale(1.1);
+  transform: translateX(-3%) scale(1.1);
   transform-origin: left center;
 }
 .heroSectionWrapper h1 {
@@ -13,8 +13,11 @@
   font-size: 1.6rem;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1560px) {
-  /* .heroSectionImg img {
-    transform: translateX(15%) scale(1.1);
-  } */
+@media only screen and (max-width: 992px) {
+  .heroSectionWrapper h1 {
+    font-size: 3rem;
+  }
+  .heroSectionWrapper p {
+    font-size: 1.4rem;
+  }
 }
