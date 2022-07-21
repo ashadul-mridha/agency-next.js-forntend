@@ -6,7 +6,7 @@ import styles from '../../styles/AboutUs.module.css';
 const Aboutus = () => {
     return (
       <>
-        <div className="container paddingWrapper">
+        <div className="container paddingWrapper" id='about'>
           <div className="row paddingWrapper">
             <div className="col-md-6">
               <div className={styles.aboutusContent}>

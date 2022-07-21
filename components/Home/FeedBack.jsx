@@ -48,7 +48,7 @@ const FeedBack = () => {
           Forever staying bro`,
     },
     {
-      username: "Zarif",
+      username: "Zishan",
       location: "Riyad,KSA",
       img: "user2.avif",
       says: `Thank you so much for your personal advice on Crypto this has helped

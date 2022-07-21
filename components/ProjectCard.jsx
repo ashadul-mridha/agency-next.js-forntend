@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const ProjectCard = ({ slider }) => {
+
+  const router = useRouter();
+  console.log(router);
   return (
     <>
       <div className="CardWrapper">
@@ -40,7 +45,9 @@ const ProjectCard = ({ slider }) => {
             <div className="projectContent">
               <h1 className="projectHeader heading">{slider.name}</h1>
               <p className="projectDetails p_text">{slider.desc}</p>
-              <button className="btn__primary mt-3">See Full Case</button>
+              <Link href={`/project/${slider.id}`}>
+                <button className="btn__primary mt-3">See Full Case</button>
+              </Link>
             </div>
           </div>
         </div>

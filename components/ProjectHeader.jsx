@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Header = () => {
+const ProjectHeader = () => {
   return (
     <>
       <div className="container">
@@ -71,26 +71,26 @@ const Header = () => {
                   <a className="nav-text">Home</a>
                 </Link>
               </li>
-              <li className="single-nav">
+              {/* <li className="single-nav">
                 <Link href="#service">
                   <a className="nav-text">Services</a>
                 </Link>
-              </li>
-              <li className="single-nav">
+              </li> */}
+              {/* <li className="single-nav">
                 <Link href="#testmonial">
                   <a className="nav-text">Testmonial</a>
                 </Link>
-              </li>
+              </li> */}
               <li className="single-nav">
                 <Link href="#project">
                   <a className="nav-text">Projects</a>
                 </Link>
               </li>
-              <li className="single-nav">
+              {/* <li className="single-nav">
                 <Link href="#about">
                   <a className="nav-text">About Us</a>
                 </Link>
-              </li>
+              </li> */}
               <button className="single-nav btn-nav btn__outlined" href="#">
                 Contact Us
               </button>
@@ -102,4 +102,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ProjectHeader;

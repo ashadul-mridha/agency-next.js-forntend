@@ -54,7 +54,7 @@ const FeaturedWork = () => {
        
 
     return (
-      <div className="paddingWrapper">
+      <div className="paddingWrapper" id='project'>
         <style>{`
             .paginationWrapper{
                 // margin-right: 15px;

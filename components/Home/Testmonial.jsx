@@ -67,8 +67,10 @@ const Testmonial = () => {
 
   return (
     <>
-      <SectionHeader data={data} />
-      <GridSlider feedbackList={feedbackList} />
+      <div id="testmonial">
+        <SectionHeader data={data} />
+        <GridSlider feedbackList={feedbackList} />
+      </div>
     </>
   );
 };

@@ -58,7 +58,7 @@ const Service = () => {
 
 
     return (
-      <div className="paddingWrapper">
+      <div className="paddingWrapper" id='service'>
         <style jsx>{`
           .serviceWrapper {
             display: grid;
