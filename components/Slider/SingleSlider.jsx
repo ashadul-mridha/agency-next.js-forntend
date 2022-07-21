@@ -57,6 +57,11 @@ const SingleSlider = ({ feedback }) => {
           .feedback div {
             margin: 0px 3px;
           }
+          @media screen and (max-width: 767px) {
+            .singleSliderWrapper {
+              height: auto;
+            }
+          }
         `}</style>
         <div className="container">
           <div className="row">

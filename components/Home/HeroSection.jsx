@@ -17,9 +17,9 @@ const HeroSection = () => {
                 Providing live trading signals that help you learn, buy and
                 trade Crypto-Currency.
               </p>
-              <div className="d-flex align-items-center pt-3">
-                <button className="btn__primary">Slot Close Apply Now</button>
-                <button className="btn__dark ms-4">Contact Us</button>
+              <div className="d-flex flex-column align-items-start flex-lg-row align-items-lg-center pt-3">
+                <button className="btn__primary mb-3 mb-lg-0">Slot Close Apply Now</button>
+                <button className="btn__dark ms-0 ms-lg-3">Contact Us</button>
               </div>
             </div>
             <div className="col-lg-6">
