@@ -7,18 +7,18 @@
   transform-origin: left center;
 }
 .heroSectionWrapper h1 {
-  font-size: 4.2rem;
+  font-size: 42px;
 }
 .heroSectionWrapper p {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 992px) {
   .heroSectionWrapper h1 {
-    font-size: 3rem;
+    font-size: 30px;
   }
   .heroSectionWrapper p {
-    font-size: 1.4rem;
+    font-size: 14px;
   }
   
 }

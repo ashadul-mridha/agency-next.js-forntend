@@ -11,19 +11,19 @@ const Footer = () => {
               font-family: "Inter", sans-serif;
               font-weight: 600;
               color: #141432;
-              font-size: 2.6rem;
-              margin-bottom: 3rem;
+              font-size: 26px;
+              margin-bottom: 30px;
               display: block;
             }
             .footerLeftSide .p_text {
               color: #141432;
-              font-size: 1.6rem;
+              font-size: 16px;
               width: 70%;
             }
             .social .title {
               color: #141432;
-              font-size: 2rem;
-              margin-top: 3rem;
+              font-size: 20px;
+              margin-top: 30px;
             }
             .socialList {
               padding-left: 0px;
@@ -37,7 +37,7 @@ const Footer = () => {
             .socialList li a {
               margin-bottom: 10px;
               color: #524fed;
-              font-size: 3rem;
+              font-size: 30px;
               text-decoration: none;
             }
             .socialList li a:hover {
@@ -45,8 +45,8 @@ const Footer = () => {
             }
             .quickLink .title {
               color: #141432;
-              font-size: 2rem;
-              margin-bottom: 3rem;
+              font-size: 20px;
+              margin-bottom: 30px;
             }
             .quickLinkList {
               padding-left: 0px;
@@ -58,7 +58,7 @@ const Footer = () => {
             .quickLinkList li a {
               margin-bottom: 10px;
               color: #141432;
-              font-size: 1.6rem;
+              font-size: 16px;
               text-decoration: none;
             }
             .quickLinkList li a:hover {
@@ -66,8 +66,8 @@ const Footer = () => {
             }
             .ProjectOrder .title {
               color: #141432;
-              font-size: 2rem;
-              margin-bottom: 3rem;
+              font-size: 20px;
+              margin-bottom: 30px;
             }
             .ProjectOrderList {
               padding-left: 0px;
@@ -79,7 +79,7 @@ const Footer = () => {
             .ProjectOrderList li a {
               margin-bottom: 10px;
               color: #141432;
-              font-size: 1.6rem;
+              font-size: 16px;
               text-decoration: none;
             }
             .ProjectOrderList li a:hover {

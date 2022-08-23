@@ -8,10 +8,11 @@ import HeroSection from "../components/Home/HeroSection";
 import Service from "../components/Home/Service";
 import Testmonial from "../components/Home/Testmonial";
 import TopNavBar from "../components/TopNavBar";
+import FeaturedWork from "../components/Home/FeaturedWork";
 
-const FeaturedWork = dynamic(() => import("../components/Home/FeaturedWork"), {
-  ssr: false,
-});
+// const FeaturedWork = dynamic(() => import("../components/Home/FeaturedWork"), {
+//   ssr: false,
+// });
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <Aboutus />
       <FeedBack />
       <Service />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
       {/* <Accordion/> */}
     </>
   );

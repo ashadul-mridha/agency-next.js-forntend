@@ -10,7 +10,7 @@
 }
 .leftContactBar ul li {
   margin: 0px 8px;
-  font-size: 1.3rem;
+  font-size: 13px;
   font-family: "Inter", sans-serif;
   /* cursor: pointer; */
 }
@@ -24,7 +24,7 @@
 .RightContactBar ul li {
   margin: 0px 8px;
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 13px;
   font-family: "Inter", sans-serif;
 }
 

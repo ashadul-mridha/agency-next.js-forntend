@@ -10,7 +10,7 @@ const ListItem = ({content}) => {
               margin: 10px 0px;
             }
             .p_text {
-              font-size: 1.6rem;
+              font-size: 16px;
               margin: 0px 0px 0px 10px;
             }
           `}</style>

@@ -67,7 +67,7 @@ const FeaturedWork = () => {
             }
             .swiper-pagination-bullet{
                 background-color: transparent !important;
-                font-size: 2rem;
+                font-size: 20px;
                 color: #000 !important;
                 margin: 10px 0px !important;
                 opacity: 0.5!important;

@@ -7,21 +7,21 @@ const SectionHeader = ({data}) => {
         <style jsx>
           {`
             .sectionHeader span {
-              font-size: 1.6rem;
+              font-size: 16px;
             }
             .sectionHeader h1 {
-              font-size: 3.6rem;
+              font-size: 36px;
               margin-top: 20px;
             }
             .sectionHeader p {
-              font-size: 1.6rem;
+              font-size: 16px;
               margin: 30px auto;
               opacity: 0.7;
             }
 
             @media only screen and (max-width: 992px) {
               .sectionHeader > h1 {
-                font-size: 3rem;
+                font-size: 30px;
               }
             }
           `}

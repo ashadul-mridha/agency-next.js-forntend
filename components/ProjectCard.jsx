@@ -26,11 +26,11 @@ const ProjectCard = ({ slider }) => {
                 margin: 10px 20px;
             }
             .projectContent h1 {
-                font-size: 2.2rem;
+                font-size: 22px;
                 color: #000000;
             }
             .projectContent p {
-                font-size: 1.6rem;
+                font-size: 16px;
                 color: #000000;
                 margin: 20px 0px 40px 0px;
             }

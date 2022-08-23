@@ -1,21 +1,21 @@
 .aboutusContent h1{
-    font-size: 4rem;
+    font-size: 40px;
     max-width: 70%;
-    line-height: 7rem;
+    line-height: 70px;
 }
 .aboutusContent > p{
-    font-size: 1.6rem;
-    margin-bottom: 2rem;
+    font-size: 16px;
+    margin-bottom: 20px;
     width: 90%;
 }
 .aboutusList{
-    margin-bottom: 5rem;
+    margin-bottom: 50px;
     padding-left: 0px;
 }
 
 @media only screen and (max-width: 992px) {
   .aboutusContent > h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 30px;
+    line-height: 40px;
   }
 }

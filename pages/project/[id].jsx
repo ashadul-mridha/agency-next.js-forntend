@@ -3,9 +3,10 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import Footer from '../../components/Footer';
 import ProjectHeader from '../../components/ProjectHeader';
-const FeaturedWork = dynamic(() => import("../../components/Home/FeaturedWork"), {
-  ssr: false,
-});
+import FeaturedWork from "../../components/Home/FeaturedWork";
+// const FeaturedWork = dynamic(() => import("../../components/Home/FeaturedWork"), {
+//   ssr: false,
+// });
 
 const SingleProject = () => {
     const router = useRouter();
@@ -18,24 +19,24 @@ const SingleProject = () => {
         <div className="container paddingWrapper">
           <style>{`
             .projectDetailsContent .heading{
-                font-size: 3rem;
+                font-size: 30px;
                 margin: 10px 0px;
             }
             .projectDetailsContent .secondaryHeading{
                 font-family: "Poppins", sans-serif;
                 font-weight: 500;
-                font-size: 2rem;
+                font-size: 20px;
                 margin: 10px 0px;
             }
             .projectDetailsContent .p_text{
-                font-size: 1.6rem;
+                font-size: 16px;
             }
             .projectDetailsCotact .heading{
-                font-size: 2rem;
+                font-size: 20px;
                 margin: 10px 0px;
             }
             .projectDetailsCotact input, .textarea{
-                font-size: 1.6rem;
+                font-size: 16px;
                 margin: 5px 0px;
                 padding: 5px 10px;
             }
@@ -47,7 +48,7 @@ const SingleProject = () => {
             .feature-list .feature-content{
                 font-family: "Inter", sans-serif;
                 font-weight: 400;
-                font-size: 1.6rem;
+                font-size: 16px;
                 color: #222;
             }
             
@@ -55,11 +56,11 @@ const SingleProject = () => {
             .projectDetailsCotact .btn__primary {
                 background: #524fed;
                 border: 2px solid #524fed;
-                padding: 1rem 4rem;
+                padding: 10px 40px;
                 color: #fff;
-                font-size: 1.6rem;
+                font-size: 16px;
                 font-weight: 600;
-                border-radius: 1rem;
+                border-radius: 10px;
                 font-family: "Inter", sans-serif;
             }
             .projectDetailsCotact.btn__primary:hover {

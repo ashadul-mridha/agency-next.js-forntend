@@ -13,11 +13,11 @@ const ServiceCard = ({ cardData }) => {
             padding: 40px;
           }
           .serviceCardWrapper h1 {
-            font-size: 2rem;
+            font-size: 20px;
             color: #000000;
           }
           .serviceCardWrapper p {
-            font-size: 1.6rem;
+            font-size: 16px;
             color: #000000;
             margin: 20px 0px 40px 0px;
           }

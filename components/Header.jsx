@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         <style jsx>{`
           .navbar-logo {
-            font-size: 2.6rem;
+            font-size: 26px;
             font-family: "Inter", sans-serif;
             color: #2b2b2c;
             font-weight: 600;
@@ -19,7 +19,7 @@ const Header = () => {
             margin: 0px 10px;
           }
           .nav-text {
-            font-size: 1.6rem;
+            font-size: 16px;
             font-family: "Inter", sans-serif;
             color: #141432 !important;
             font-weight: 400;
@@ -29,7 +29,7 @@ const Header = () => {
             color: #524fed !important;
           }
           .btn-nav {
-            font-size: 1.6rem;
+            font-size: 16px;
             font-weight: 600;
             border-radius: 2px;
             text-decoration: none;

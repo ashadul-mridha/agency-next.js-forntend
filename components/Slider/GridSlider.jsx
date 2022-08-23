@@ -31,7 +31,7 @@ const GridSlider = ({ feedbackList }) => {
             margin: 20px 20px 5px 0px;
           }
           .customButton > button {
-            padding: 1rem 2rem;
+            padding: 10px 20px;
             background: #000;
             width: 83px;
             height: 36px;
@@ -46,7 +46,7 @@ const GridSlider = ({ feedbackList }) => {
           }
           .customButton > button span {
             color: #524fed;
-            font-size: 2rem;
+            font-size: 20px;
           }
           .customButton > button:hover {
             background: #524fed;
@@ -57,8 +57,7 @@ const GridSlider = ({ feedbackList }) => {
         `}</style>
         <img src="/images/slider-bg.png" alt="" className="sliderImage" />
         <Swiper
-          spaceBetween={10}
-          slidesPerView={1}
+          slidesPerView="auto"
           loop={true}
           autoplay={{
             delay: 2000,
@@ -69,7 +68,11 @@ const GridSlider = ({ feedbackList }) => {
             prevEl: `.prev`,
           }}
           breakpoints={{
-            768: {
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            576: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
